@@ -167,7 +167,8 @@ namespace OptimizelySDK
                          OptimizelyDecideOption[] defaultDecideOptions = null)
         {
             ProjectConfigManager = configManager;
-
+            Console.WriteLine("This is for testing.... ");
+            
             InitializeComponents(eventDispatcher, logger, errorHandler, userProfileService, notificationCenter, eventProcessor, defaultDecideOptions);
         }
 
